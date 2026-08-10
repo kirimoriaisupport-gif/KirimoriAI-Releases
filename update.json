@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "latestVersion": "1.0.0",
+  "publishedAt": "2026-08-10T15:15:00+09:00",
+  "title": "Kirimori AI v1.0.0",
+  "notes": [
+    "Kirimori AIの初回正式公開版です。",
+    "動画・静止画・スライド、2D PNG・VRM、字幕、AI台本、任意TTS／STTに対応しました。",
+    "更新は通知のみで、自動ダウンロードや自動インストールは行いません。"
+  ],
+  "downloadUrl": "https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.0",
+  "engines": {
+    "tts": "0.2.0",
+    "stt": "1.9.1"
+  }
+}
