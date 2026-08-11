@@ -56,13 +56,27 @@ ZIPはすべて展開してから、同梱のセットアップを実行して�
 
 ## AI台本
 
-OpenAI互換Chat Completions APIへ接続できます。LM StudioなどのローカルLLMのほか、Gemini APIなどの外部APIも利用できます。
+AI台本は任意機能です。右上の歯車から、OpenAI互換Chat Completions APIのURL、モデル名、必要な場合はAPIキーを入力します。
 
-Gemini APIの設定例:
+### LM Studioを使う場合
+
+1. LM Studioで使用するモデルを読み込みます。
+2. Developer画面のLocal Serverを開始します。
+3. Kirimori AIへ次の値を入力します。
+
+- Chat Completions URL: `http://127.0.0.1:1234/v1/chat/completions`
+- モデル名: LM Studioに表示されるAPI Model Identifier
+- APIキー: 通常は空欄
+
+ポート番号を変更した場合は、URLの`1234`も同じ番号へ変更してください。
+
+### Gemini APIを使う場合
 
 - Chat Completions URL: `https://generativelanguage.googleapis.com/v1beta/openai/chat/completions`
-- モデル名: `gemini-3.5-flash`
+- モデル名の例: `gemini-3.5-flash`
 - APIキー: Google AI Studioで取得したキー
+
+モデル名、利用上限、無料枠、URLは提供元の更新で変わる場合があります。利用時は各サービスの公式情報も確認してください。
 
 外部APIを使用した場合、台本用の文章と最大8枚の代表フレームが指定した接続先へ送信されます。動画本体は送信しません。
 
