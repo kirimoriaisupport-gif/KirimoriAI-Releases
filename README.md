@@ -4,7 +4,12 @@
 
 このリポジトリは、Kirimori AIの公式リリース、更新情報、利用条件を案内するためのものです。アプリ本体のソースコード公開用リポジトリではありません。
 
-> 現在は正式公開準備中です。公開後のアプリは[Releases](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases)からダウンロードできるようになります。
+## 配布ページ
+
+- [BOOTH（無料版・任意の音声エンジンパック）](https://harako-ai.booth.pm/items/8701956)
+- [GitHub Releases（公式リリース・更新ファイル）](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases)
+
+初めて導入する場合は、説明と必要ファイルをまとめて確認できるBOOTH版がおすすめです。GitHub Releasesでも同じ正式版を配布します。
 
 ## 主な機能
 
