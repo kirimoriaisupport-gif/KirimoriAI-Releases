@@ -11,6 +11,8 @@
 
 初めて導入する場合は、説明と必要ファイルをまとめて確認できるBOOTH版がおすすめです。GitHub Releasesでも同じ正式版を配布します。
 
+現在の正式版は **v1.0.3** です。[更新内容](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.3)では、VRMの拡大・表示、セリフの開始時刻の自動調整、オネェ口調、画面デザインなどの改善を案内しています。
+
 ## 主な機能
 
 - 動画の時間トリミング、縦長・横長・正方形・フィード向け出力
@@ -35,9 +37,17 @@ AI機能を導入しなくても、手入力の字幕、動画内音声、2D PNG
 
 Windows 10 22H2 64bitでも利用可能ですが、主な確認対象はWindows 11です。4K・60fps素材、長時間動画、多数のスライド、VRMの高画質出力では追加の性能と空き容量が必要です。
 
+## Windowsの保護機能について
+
+この配布版にはWindows向けのコード署名を付けていません。Windows 11のSmart App Control（SAC）によって、インストールや起動がブロックされる場合があります。
+
+現在、SACにはアプリ単位の例外許可がありません。SACを無効にすると、Kirimori AIだけでなくPC全体のこの保護が無効になります。設定を変更する場合は影響を確認し、利用者ご自身で判断してください。保護設定を維持したい場合や不安がある場合は、導入を見送ってください。
+
+SACとSmartScreenの警告は別の仕組みです。表示された警告名を確認してください。詳細は[Microsoft公式FAQ](https://support.microsoft.com/en-us/windows/security/threat-malware-protection/smart-app-control-frequently-asked-questions)をご参照ください。
+
 ## インストール
 
-1. Release assetsにある `Kirimori AI_*_x64-setup.exe` を実行します。
+1. Release assetsにある `KirimoriAI_1.0.3_x64-setup.exe` を実行します。
 2. Windowsの案内に従ってインストールします。
 3. 動画・静止画・スライドを読み込み、STEP 5からMP4を書き出します。
 
@@ -48,7 +58,7 @@ GitHubが自動表示する「Source code (zip)」はアプリのインストー
 Release assetsでは、次の任意パックも配布します。
 
 - `KirimoriAI-STT-whispercpp-ja-v1.9.1.zip`: 別録り音声の文字起こし
-- `KirimoriAI-IrodoriTTS-Setup-v0.2.0.zip`: Irodori-TTS V4によるAI読み上げ
+- `KirimoriAI-IrodoriTTS-Setup-v0.2.6.zip`: Irodori-TTS V4によるAI読み上げ
 
 ZIPはすべて展開してから、同梱のセットアップを実行してください。導入と動作確認後は、ダウンロードしたZIP、展開したセットアップ用フォルダ、Kirimori AIのインストーラーを削除して構いません。
 
