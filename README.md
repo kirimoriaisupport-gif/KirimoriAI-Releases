@@ -11,7 +11,7 @@
 
 初めて導入する場合は、説明と必要ファイルをまとめて確認できるBOOTH版がおすすめです。GitHub Releasesでも同じ正式版を配布します。
 
-現在の正式版は **v1.0.3** です。[更新内容](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.3)では、VRMの拡大・表示、セリフの開始時刻の自動調整、オネェ口調、画面デザインなどの改善を案内しています。
+現在の正式版は **v1.0.4** です。[更新内容](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.4)では、VRM付き動画のカクつきと、モデル読込・保存プロジェクト再読込時の表示位置の修正を案内しています。
 
 ## 主な機能
 
@@ -47,7 +47,7 @@ SACとSmartScreenの警告は別の仕組みです。表示された警告名を
 
 ## インストール
 
-1. Release assetsにある `KirimoriAI_1.0.3_x64-setup.exe` を実行します。
+1. Release assetsにある `KirimoriAI_1.0.4_x64-setup.exe` を実行します。
 2. Windowsの案内に従ってインストールします。
 3. 動画・静止画・スライドを読み込み、STEP 5からMP4を書き出します。
 
