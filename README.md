@@ -11,7 +11,7 @@
 
 初めて導入する場合は、説明と必要ファイルをまとめて確認できるBOOTH版がおすすめです。GitHub Releasesでも同じ正式版を配布します。
 
-現在の正式版は **v1.0.4** です。[更新内容](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.4)では、VRM付き動画のカクつきと、モデル読込・保存プロジェクト再読込時の表示位置の修正を案内しています。
+現在の正式版は **v1.0.5** です。[更新内容](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.5)では、TTSの通信に使う証明書を更新したセットアップv0.2.7と、既存利用者向けの更新手順を案内しています。
 
 ## 主な機能
 
@@ -47,7 +47,7 @@ SACとSmartScreenの警告は別の仕組みです。表示された警告名を
 
 ## インストール
 
-1. Release assetsにある `KirimoriAI_1.0.4_x64-setup.exe` を実行します。
+1. Release assetsにある `KirimoriAI_1.0.5_x64-setup.exe` を実行します。
 2. Windowsの案内に従ってインストールします。
 3. 動画・静止画・スライドを読み込み、STEP 5からMP4を書き出します。
 
@@ -58,7 +58,9 @@ GitHubが自動表示する「Source code (zip)」はアプリのインストー
 Release assetsでは、次の任意パックも配布します。
 
 - `KirimoriAI-STT-whispercpp-ja-v1.9.1.zip`: 別録り音声の文字起こし
-- `KirimoriAI-IrodoriTTS-Setup-v0.2.6.zip`: Irodori-TTS V4によるAI読み上げ
+- `KirimoriAI-IrodoriTTS-Setup-v0.2.7.zip`: Irodori-TTS V4によるAI読み上げ
+
+**TTS v0.2.6以前を利用中の場合は、正常に読み上げできていてもv0.2.7へ更新してください。本体を更新するだけではTTS環境は変わりません。** Kirimori AIを終了し、新しいTTS ZIPをすべて展開して`Install-TTS-Pack.cmd`を実行します。既存TTSはバックアップされ、取得済みモデルはSHA256を照合して再利用します。TTS v0.2.7とSTT v1.9.1を導入済みの場合は再セットアップ不要です。
 
 ZIPはすべて展開してから、同梱のセットアップを実行してください。導入と動作確認後は、ダウンロードしたZIP、展開したセットアップ用フォルダ、Kirimori AIのインストーラーを削除して構いません。
 
