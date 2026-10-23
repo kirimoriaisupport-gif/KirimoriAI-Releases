@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "latestVersion": "1.0.4",
-  "publishedAt": "2026-09-27T06:32:24Z",
-  "title": "Kirimori AI v1.0.4",
+  "latestVersion": "1.0.5",
+  "publishedAt": "2026-10-23T05:25:25Z",
+  "title": "Kirimori AI v1.0.5",
   "notes": [
-    "長い動画でVRMの動きが粗くなる問題を修正し、出力設定に合わせた滑らかな動きにしました。",
-    "新規VRM読込時のバストアップ初期配置と、字幕の整列操作でVRMが移動する問題を修正しました。",
-    "保存プロジェクトのVRM位置・拡大率の復元を修正しました。",
-    "ポーズ・揺れ物・尻尾によるカメラ基準のずれを修正しました。"
+    "TTSの通信に使う証明書を更新したセットアップv0.2.7を用意しました。",
+    "TTS v0.2.6以前を利用中の方は、正常に動いていてもTTSパックを別途更新してください。本体更新だけではTTS環境は変わりません。",
+    "取得済みモデルはSHA256を照合して再利用します。TTS v0.2.7導入済みの場合と、STT v1.9.1は再セットアップ不要です。"
   ],
-  "downloadUrl": "https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.4",
+  "downloadUrl": "https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/v1.0.5",
   "engines": {
-    "tts": "0.2.6",
+    "tts": "0.2.7",
     "stt": "1.9.1"
   }
 }
