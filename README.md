@@ -11,7 +11,7 @@
 
 初めて導入する場合は、説明と必要ファイルをまとめて確認できるBOOTH版がおすすめです。GitHub Releasesでも同じ正式版を配布します。
 
-現在の本体正式版は **v1.0.5**、TTSセットアップは **[v0.2.8](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/tts-v0.2.8)** です。本体とSTTの再導入は不要で、TTS v0.2.7以前からはTTSパックを別途更新してください。
+現在の本体正式版は **v1.0.5**、TTSセットアップは **[v0.2.9](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/tts-v0.2.9)** です。本体とSTTの再導入は不要で、TTS v0.2.8以前からはTTSパックを別途更新してください。
 
 ## 主な機能
 
@@ -55,14 +55,14 @@ GitHubが自動表示する「Source code (zip)」はアプリのインストー
 
 ## 任意の音声エンジン
 
-次の任意パックを配布します。TTSは[TTS専用Release](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/tts-v0.2.8)、STTは本体v1.0.5のReleaseから取得してください。
+次の任意パックを配布します。TTSは[TTS専用Release](https://github.com/kirimoriaisupport-gif/KirimoriAI-Releases/releases/tag/tts-v0.2.9)、STTは本体v1.0.5のReleaseから取得してください。
 
 - `KirimoriAI-STT-whispercpp-ja-v1.9.1.zip`: 別録り音声の文字起こし
-- `KirimoriAI-IrodoriTTS-Setup-v0.2.8.zip`: Irodori-TTS V4によるAI読み上げ
+- `KirimoriAI-IrodoriTTS-Setup-v0.2.9.zip`: Irodori-TTS V4によるAI読み上げ
 
-**TTS v0.2.7以前を利用中の場合は、正常に読み上げできていてもv0.2.8へ更新してください。本体の更新だけではTTS環境は変わりません。Kirimori AIをすべて終了し、新しいTTS ZIPをすべて展開して`Install-TTS-Pack.cmd`を実行します。既存TTSはバックアップされ、取得済みモデルはSHA256を照合して再利用します。TTS v0.2.8導入済みなら再導入不要です。STT v1.9.1は変更していません。**
+**TTS v0.2.8以前を利用中の場合は、正常に読み上げできていてもv0.2.9へ更新してください。本体の更新だけではTTS環境は変わりません。Kirimori AIをすべて終了し、新しいTTS ZIPをすべて展開して`Install-TTS-Pack.cmd`を実行します。既存TTSはバックアップされ、取得済みモデルはSHA256を照合して再利用します。TTS v0.2.9導入済みなら再導入不要です。STT v1.9.1は変更していません。**
 
-既存モデルの再取得を禁止したい場合は、TTS専用Releaseの`TTS-UPDATE-ja.md`にあるPS1コマンドを使用してください。
+TTS単体の更新はアプリ内の本体更新バナーに表示されません。SHA256と手順書はTTS専用Releaseにあります。既存モデルの再取得を禁止したい場合は、TTS専用Releaseの`TTS-UPDATE-ja.md`にあるPS1コマンドを使用してください。
 
 ZIPはすべて展開してから、同梱のセットアップを実行してください。導入と動作確認後は、ダウンロードしたZIP、展開したセットアップ用フォルダ、Kirimori AIのインストーラーを削除して構いません。
 
